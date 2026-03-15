@@ -32,7 +32,7 @@ jobs:
             uses: actions/download-artifact@v8
             with:
               name: dragon-text-file-44
-              path: ./dragon.txt
+              path: .
 
           - name: sleep for 5 seconds
             run: sleep 5
@@ -48,7 +48,7 @@ jobs:
             uses: actions/download-artifact@v8
             with:
               name: dragon-text-file-44
-              path: ./dragon.txt
+              path: .
 
           - name: Read File
             run: cat dragon.txt
