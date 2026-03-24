@@ -16,7 +16,7 @@ jobs:
 
     
     deploy-on-windows:
-        runs-on: winwows-latest
+        runs-on: windows-latest
         steps:
             - name: Echo docker details
               run: docker info
