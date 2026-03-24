@@ -10,3 +10,4 @@
 - Expressions
 - Parallel jobs
 - Secrets
+- Skip workflow run
